@@ -1,0 +1,33 @@
+{
+  "name": "hypernova-server-vue",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack --watch --mode development",
+    "start": "node dist/server.js"
+  },
+  "dependencies": {
+    "hypernova": "^2.5.0",
+    "hypernova-vue": "^0.2.0",
+    "vue": "^2.6.6",
+    "vue-server-renderer": "^2.6.6"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-airbnb": "^2.5.3",
+    "eslint": "^5.14.1",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "nodemon-webpack-plugin": "^4.0.7",
+    "vue-loader": "^15.6.4",
+    "vue-template-compiler": "^2.6.6",
+    "webpack": "^4.29.5",
+    "webpack-cli": "^3.2.3"
+  }
+}
