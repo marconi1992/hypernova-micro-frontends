@@ -6,11 +6,11 @@ module.exports.getContent = () => {
     content: {
       name: 'ProductList',
       data: {
-        title: 'Series',
+        title: 'Products',
         items: [
           {
-            title: 'Game of thrones',
-            imageUrl: 'https://imagesvc.timeincapp.com/v3/fan/image?url=https%3A%2F%2Fwinteriscoming.net%2Ffiles%2F2016%2F05%2FGame-of-Thrones-Season-6-HEADER.jpg&c=sc&w=850&h=560'
+            title: 'Product 1',
+            imageUrl: 'https://via.placeholder.com/150'
           }
         ]
       }

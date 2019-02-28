@@ -19,11 +19,15 @@ body {
 
 .k-header__brand {
   font-size: 24px;
-  color: #009688;
+  color: #E93D44;
 }
 
 .k-header__space {
   flex: 1;
+}
+
+.k-header__last-item {
+  padding-left: 16px;
 }
 
 .k-navbar ul{
@@ -44,7 +48,7 @@ body {
 
 .k-navbar__item a:hover {
   text-decoration: none;
-  color: #009688;
+  color: #E93D44;
 }
 
 .k-product-list ul {
@@ -55,12 +59,14 @@ body {
 }
 
 .k-product-list {
-  width: 1048px;
+  max-width: 1048px;
+  padding: 16px 0 0 16px;
   margin: auto;
+  margin-bottom: 32px;
 }
 
 .k-product-list__header {
-  color: #009688;
+  color: #E93D44;
 }
 
 .k-product-item {

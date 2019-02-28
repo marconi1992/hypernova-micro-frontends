@@ -1,3 +1,5 @@
+import express from 'express';
+import path from 'path';
 import hypernova from 'hypernova/server';
 import { renderReact } from 'hypernova-react';
 
@@ -13,4 +15,12 @@ hypernova({
     return null;
   },
   port: 3031,
+
+  createApplication() {
+    const app = express();
+
+    app.use(express.static(path.join(process.cwd(), 'dist')));
+
+    return app;
+  },
 });

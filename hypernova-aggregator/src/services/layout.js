@@ -6,10 +6,10 @@ module.exports.getLayout = () => {
     header: {
       name: 'Header',
       data: {
-        title: 'Kairos',
+        title: 'Wizeline',
         links: [
           {
-            url: '/',
+            url: 'https://www.wizeline.com/',
             text: 'Home'
           },
           {
