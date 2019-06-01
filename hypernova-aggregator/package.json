@@ -4,13 +4,16 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "node src/index.js"
+    "start": "node src/index.js",
+    "buildAll": "concurrently \"cd ../hypernova-server-react && yarn build\" \"cd ../hypernova-server-vue && yarn build\"",
+    "startAll": "concurrently \"cd ../hypernova-server-react && yarn start\" \"cd ../hypernova-server-vue && yarn start\" \"yarn start\""
   },
   "dependencies": {
     "axios": "^0.19.0",
     "express": "^4.16.4"
   },
   "devDependencies": {
+    "concurrently": "^4.1.0",
     "eslint": "^5.14.1",
     "eslint-config-standard": "^12.0.0",
     "eslint-plugin-import": "^2.16.0",
