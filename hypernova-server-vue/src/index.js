@@ -12,7 +12,7 @@ hypernova({
       return renderVue(name, Vue.extend(ProductList))
     }
   },
-  port: 3030,
+  port: process.env.PORT || 3030,
 
   createApplication () {
     const app = express()
