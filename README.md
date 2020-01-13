@@ -6,7 +6,7 @@
 sh setup.sh
 cd hypernova-aggregator
 yarn buildAll
-yarn runAll
+yarn startAll
 ```
 
 This will start the following processes:
